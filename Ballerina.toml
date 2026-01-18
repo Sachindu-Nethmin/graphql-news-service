@@ -1,0 +1,8 @@
+[package]
+org = "sachindu"
+name = "news"
+version = "0.1.0"
+title = "news"
+
+[build-options]
+sticky = true
