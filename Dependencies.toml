@@ -288,18 +288,6 @@ dependencies = [
 
 [[package]]
 org = "ballerina"
-name = "random"
-version = "1.7.0"
-dependencies = [
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "time"}
-]
-modules = [
-	{org = "ballerina", packageName = "random", moduleName = "random"}
-]
-
-[[package]]
-org = "ballerina"
 name = "task"
 version = "2.11.0"
 dependencies = [
@@ -361,8 +349,7 @@ name = "news"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "graphql"},
-	{org = "ballerina", name = "lang.runtime"},
-	{org = "ballerina", name = "random"}
+	{org = "ballerina", name = "lang.runtime"}
 ]
 modules = [
 	{org = "sachindu", packageName = "news", moduleName = "news"}
